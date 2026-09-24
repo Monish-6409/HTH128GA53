@@ -1,0 +1,22 @@
+{
+  "name": "resq-ai",
+  "version": "1.0.0",
+  "description": "ResQAI — Multi-Agent Disaster Response Command Center",
+  "scripts": {
+    "start:backend": "cd backend && ./venv/bin/python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "preview:frontend": "cd frontend && npm run preview",
+    "test:backend": "cd backend && ./venv/bin/python -m unittest discover tests"
+  },
+  "keywords": [
+    "disaster-response",
+    "multi-agent",
+    "fastapi",
+    "react",
+    "command-center",
+    "ai-orchestration"
+  ],
+  "author": "ResQAI Team",
+  "license": "MIT"
+}
